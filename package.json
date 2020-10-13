@@ -1,0 +1,19 @@
+{
+  "name": "gitignore-npm-test",
+  "version": "1.0.0",
+  "description": "测试 .gitignore 在 npm install 上的变化",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2234839/gitignore-npm-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2234839/gitignore-npm-test/issues"
+  },
+  "homepage": "https://github.com/2234839/gitignore-npm-test#readme"
+}
