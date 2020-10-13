@@ -1,6 +1,6 @@
 {
   "name": "@llej/gitignore-npm-test",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "description": "测试 .gitignore 在 npm install 上的变化",
   "main": "src/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2234839/gitignore-npm-test.git"
+    "url": "git/*  */+https://github.com/2234839/gitignore-npm-test.git"
   },
   "files": [
     "./.gitignore",
