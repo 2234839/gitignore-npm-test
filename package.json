@@ -1,15 +1,23 @@
 {
-  "name": "gitignore-npm-test",
-  "version": "1.0.0",
+  "name": "@llej/gitignore-npm-test",
+  "version": "1.0.7",
   "description": "测试 .gitignore 在 npm install 上的变化",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "node ./npm-hook/rename.js",
+    "publish": "node ./npm-hook/rename.js",
+    "install": "node ./npm-hook/rename.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/2234839/gitignore-npm-test.git"
   },
+  "files": [
+    "./.gitignore",
+    "src",
+    "npm-hook"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
